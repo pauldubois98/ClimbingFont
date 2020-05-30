@@ -1,0 +1,46 @@
+/* FONT */
+@font-face {
+    font-family: 'ClimbingFont';
+    src: url('ClimbingFont.woff') format('woff'), /* Pretty Modern Browsers */
+    url('ClimbingFont.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('ClimbingFont.svg#Climbing') format('svg'), /* Legacy iOS */
+    url('ClimbingFont.otf');
+
+}
+.climbing-font {
+    font-family: 'ClimbingFont', Fallback, sans-serif;
+}
+
+/* PAGE */
+body{
+    margin: auto;
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Title & subtitle */
+h1{
+    text-align: center;
+    color: #b71c1c;
+    font-size: 3.75em;
+}
+h3{
+    text-align: center;
+    color: #01579b;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+/* Content */
+h2{
+    color: #4a148c;
+    color: #e65100;
+    font-size: 3em;
+}
+p{
+    font-size: 3em;
+}
