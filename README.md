@@ -4,3 +4,4 @@
 
 A funny font about rock climbing.
 
+Presentation (and quick test) of the font [here](https://pauldubois98.github.io/ClimbingFont/index.html) (visit [https://pauldubois98.github.io/ClimbingFont/index.html](https://pauldubois98.github.io/ClimbingFont/index.html)).
