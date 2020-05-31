@@ -36,11 +36,52 @@ h3{
 }
 
 /* Content */
-h2{
-    color: #4a148c;
-    color: #e65100;
-    font-size: 3em;
-}
 p{
     font-size: 3em;
+    color: #424242;
+}
+/* Download */
+#download{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0.7em;
+}
+.download-button{
+    margin: 1em;
+    padding: 1em;
+
+    display: block;
+    width: 4em;
+    height: 1.2em;
+    
+    background-color: #0277bd;
+    color: #ffffff;
+
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+
+    border-radius: 0.5em;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
+
+    -webkit-transition: background-color 1s;
+    -moz-transition:    background-color 1s;
+    -ms-transition:     background-color 1s;
+    -o-transition:      background-color 1s;
+    transition:         background-color 1s;
+}
+.download-button:hover{
+    background-color: #81d4fa;
+}
+/* Presentation */
+h2{
+    color: #4a148c;
+    font-size: 3em;
+}
+/* Links */
+#links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
